@@ -11,7 +11,7 @@ tampilkanData("loc", "loc-user");
 tampilkanData("exp", "exp-user");
 tampilkanData("email", "email-user");
 
-// const form = document.getElementById("form-user");
+const form = document.getElementById("form-user");
 // form.style.display="none";
 
 function tampilkanForm(){
@@ -39,6 +39,8 @@ function updateForm(){
     document.getElementById("loc").innerHTML = inputLoc;
     document.getElementById("exp").innerHTML = inputExp;
     document.getElementById("email").innerHTML = inputEmail;
+
+    form.style.display="none";
 }
 
 function myFunction() {
